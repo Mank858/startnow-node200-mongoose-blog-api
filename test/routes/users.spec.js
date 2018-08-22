@@ -9,7 +9,7 @@ const expect = chai.expect;
 chai.use(chaiHttp);
 
 describe('/api/users', function () {
-    this.timeout(65000);
+    this.timeout(16500);
 
     it('GET / should respond with users', (done) => {
         chai.request(app)
